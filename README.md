@@ -1,7 +1,7 @@
 # Climbing-Twister
 Climbing twister game - Random climbing trainer
 
-#Outline
+# Outline
 Website using Node Js and express
 Store data in Mongo DB
 
