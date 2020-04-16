@@ -16,3 +16,11 @@ Store data in Mongo DB
 -Adaptable for phones
 
 -Optional Account to save routes
+
+# Run Dev mode
+$ docker build ./ 
+$ pwd
+$ docker run -it -p 3000:3000 -v [put your path here]/frontend/src:/frontend/src [image id]
+
+# Production Image
+$ docker run -i -t -p 3000:3000 [image id]
