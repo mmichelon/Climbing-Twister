@@ -6,6 +6,7 @@ Website using Node Js and express
 Store data in Mongo DB
 
 # Tools
+- Docker
 - Node JS
 - Express
 - MongoDB
@@ -18,9 +19,17 @@ Store data in Mongo DB
 -Optional Account to save routes
 
 # Run Dev mode
-$ docker build ./ 
+$ docker build ./
 $ pwd
 $ docker run -it -p 3000:3000 -v [put your path here]/frontend/src:/frontend/src [image id]
 
 # Production Image
 $ docker run -i -t -p 3000:3000 [image id]
+
+# Install Dependencies
+ - install docker
+ - install npm
+ //react-radio-buttons - may not need
+ $ npm install react-radio-buttons --save
+
+ npm install — save node-sass
