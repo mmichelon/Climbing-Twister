@@ -23,6 +23,9 @@ $ docker build ./
 $ pwd
 $ docker run -it -p 3000:3000 -v [put your path here]/frontend/src:/frontend/src [image id]
 
+To Find Docker Image
+$ docker images
+
 # Production Image
 $ docker run -i -t -p 3000:3000 [image id]
 
